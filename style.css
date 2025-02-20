@@ -1,8 +1,63 @@
+footer {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #214859;
+    color: white
+}
 li {
     list-style-type: none;
 }
 
+.btn{
+    color: #003B6D;
+}
+
+.navbar{
+    background-color: #6699CC;
+}
 .logo-nav-image{
 
     margin-right: 20px;
+}
+
+.left-content{
+
+    margin-top: 30px;
+}
+
+
+.footer-nav{
+    color: white
+}
+
+.footer-nav:hover{
+    color: #676767;
+}
+
+.btn-outline-success:hover{
+    background-color: #676767;
+}
+
+.services{
+    padding: 0;
+    list-style-type:disc;
+}
+
+.jumbotron{
+    padding-left: 30%;
+    background-color:#003B6D;
+    color: white;
+}
+.slogan{
+    padding: 10px 60px;
+    font-style:italic;
+}
+.adoption{
+    background-color:#6699CC;
+    color:white;
+}
+.image-main{
+    padding-left: 100px;
 }
